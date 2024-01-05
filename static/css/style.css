@@ -1,9 +1,14 @@
-.icons {
-    width: 20;
-    height: 20;
+.icon {
+    width: 20px;
+    height: 20px;
 }
 
-.pic-m {
+.listImg {
     width: 200px;
     height: 200px;
+    object-fit: contain;
+}
+
+.testing {
+  color: red;
 }
