@@ -28,12 +28,13 @@ SECRET_KEY = '_nw1z-ogmf^3)6_5giss(r6r1!5^z*4yl$^$_obsa%j_w(1qsw'
 # SECURITY WARNING: don't run with debug turned on in production!
 DEBUG = True
 
-ALLOWED_HOSTS = []
+ALLOWED_HOSTS = ['*']
 
 
 # Application definition
 
 INSTALLED_APPS = [
+    # 'jazzmin',
     'django.contrib.admin',
     'django.contrib.auth',
     'django.contrib.contenttypes',
@@ -46,6 +47,7 @@ INSTALLED_APPS = [
     'hr_department.apps.HrDepartmentConfig',
     'hr_recruitment.apps.HrRecruitmentConfig',
     'hr_expense.apps.HrExpenseConfig',
+    'hr_payroll'
 ]
 
 MIDDLEWARE = [
@@ -150,7 +152,12 @@ USE_L10N = False
 USE_TZ = True
 
 # static file
-STATIC_URL = 'static/'
+# STATIC_URL = 'static/'
+# STATICFILES_DIRS = [
+#     os.path.join(BASE_DIR, 'static')
+# ]
+
+STATIC_URL = '/static/'
 STATICFILES_DIRS = [
     os.path.join(BASE_DIR, 'static')
 ]

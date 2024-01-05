@@ -26,6 +26,7 @@ urlpatterns = [
     path('employee/', include('hr_employee.urls')),
     path('recruitment/', include('hr_recruitment.urls')),
     path('expense/', include('hr_expense.urls')),
+    path('payroll/', include('hr_payroll.urls')),
 ]
 
 if settings.DEBUG:

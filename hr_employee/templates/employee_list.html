@@ -18,7 +18,7 @@
 </style> -->
 <div>
     <div>
-        <h3> Employees </h3>
+        <h3 class="testing"> Employees </h3>
     </div>
     <table class="table">
         <thead>
@@ -52,7 +52,7 @@
                 </td>
                 <td>{{ forloop.counter }}</td>
                 <td>
-                    
+
                     {% if employee.picture == '' %}
                     <img src="../../media/default_employee.png" class="listImg">
                     {% else %}
