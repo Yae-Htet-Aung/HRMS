@@ -1,0 +1,9 @@
+sudo apt-get install python3.9-venv  # Install the venv module
+sudo apt-get install python3.9-distutils  # Install distutils module
+wget https://bootstrap.pypa.io/get-pip.py  # Download get-pip.py
+python3.9 get-pip.py  # Install pip
+python3.9 -m venv venv  # Create virtual environment
+
+
+python3.9 -m pip install --upgrade pip
+python3.9 -m pip install django==2.0

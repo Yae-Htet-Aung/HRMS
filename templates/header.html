@@ -1,0 +1,57 @@
+<nav class="d-flex p-3 border-bottom border-4 border-dark bg-dark shadow-lg mb-4">
+    <button class="btn btn-outline-light" type="button" data-bs-toggle="offcanvas" data-bs-target="#staticBackdrop" aria-controls="staticBackdrop">
+        <i class="bi bi-list"></i>
+    </button>
+    <a href="#" class="fs-3 text-decoration-none fw-bold text-white" style="padding-left: 20px;">Human Resource Management System</a>
+
+    <div class="offcanvas offcanvas-start" data-bs-backdrop="static" tabindex="-1" id="staticBackdrop" aria-labelledby="staticBackdropLabel">
+        <div class="offcanvas-header bg-dark py-4">
+            <h5 class="offcanvas-title text-white" id="staticBackdropLabel">Menu</h5>
+            <button type="button" class="btn-close btn-close-white" data-bs-dismiss="offcanvas" aria-label="Close"></button>
+        </div>
+        <div class="offcanvas-body">
+            <div class="fs-5 ">
+                <div>
+                    <a class="text-decoration-none text-dark fs-3" href="/employee/list"><i class="bi bi-house ml-3"></i></a>
+                </div>
+
+                <div class="py-2 border-1 border-bottom border-secondary">
+                    <!-- <p class="fs-4 border-2 border-bottom border-primary">Employee</p> -->
+                    <a class="d-block text-dark text-decoration-none fs-6" href="/employee/list">Employee List</a>
+                    <a class="d-block text-dark text-decoration-none fs-6" href="/employee/add">Add an Employee</a>
+                </div>
+
+                <div class="py-2 border-1 border-bottom border-secondary">
+                    <!-- <p class="fs-4 border-2 border-bottom border-primary">Contracts</p> -->
+                    <a class="d-block text-dark text-decoration-none fs-6" href="/contract/list">Contract List</a>
+                    <a class="d-block text-dark text-decoration-none fs-6" href="/contract/add">Add a Contract</a>
+                </div>
+
+                <div class="py-2 border-1 border-bottom border-secondary">
+                    <!-- <p class="fs-4 border-2 border-bottom border-primary">Jobs</p> -->
+                    <a class="d-block text-dark text-decoration-none fs-6" href="/job/list">Job List</a>
+                    <a class="d-block text-dark text-decoration-none fs-6" href="/job/add">Add a Job</a>
+                </div>
+
+                <div class="py-2 border-1 border-bottom border-secondary">
+                    <!-- <p class="fs-4 border-2 border-bottom border-primary">Departments</p> -->
+                    <a class="d-block text-dark text-decoration-none fs-6" href="/department/list">Department List</a>
+                    <a class="d-block text-dark text-decoration-none fs-6" href="/department/add">Add a Department</a>
+                </div>
+
+                <div class="py-2 border-1 border-bottom border-secondary">
+                    <!-- <p class="fs-4 border-2 border-bottom border-primary">Resumes</p> -->
+                    <a class="d-block text-dark text-decoration-none fs-6" href="/recruitment/add">Add a Resume</a>
+                    <a class="d-block text-dark text-decoration-none fs-6" href="/recruitment/list">Resume List</a>
+                </div>
+
+                <div class="py-2 border-1 border-bottom border-secondary">
+                    <!-- <p class="fs-4 border-2 border-bottom border-primary">Expenses</p> -->
+                    <a class="d-block text-dark text-decoration-none fs-6" href="/expense/list">Expense List</a>
+                    <a class="d-block text-dark text-decoration-none fs-6" href="/expense/add">Add a Expense</a>
+                </div>
+
+            </div>
+        </div>
+    </div>
+</nav>
